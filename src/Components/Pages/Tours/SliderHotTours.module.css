@@ -1,0 +1,230 @@
+.main_hot_tours {
+  position: relative;
+  max-width: 1920px;
+  height: 813px;
+}
+
+.main_hot_tours_header {
+  cursor: pointer;
+  top: 15%;
+  left: 18%;
+  position: absolute;
+  width: 540px;
+  height: 80px;
+  text-align: left;
+}
+
+.main_hot_tours_header_txt1 {
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.main_hot_tours_header_txt2 {
+  color: var(--, #1c1c1c);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main_hot_tours_header_img {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+}
+
+.slider_hottours_container {
+  position: relative;
+
+  left: 12%;
+  top: 40%;
+  height: 450px;
+  max-width: 1650px;
+}
+
+/* .hottours_container_slide:hover {
+  z-index: 1;
+  transition: 1s;
+  transform: scale(1.1);
+} */
+
+.hottours_container_slide {
+  width: 340px;
+  height: 256px;
+  position: absolute;
+  transition: 1s;
+  background-repeat: no-repeat;
+}
+
+.main_hot_tours_head {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 400px;
+  height: 21px;
+  display: flex;
+  gap: 20px;
+}
+
+.main_hot_tours_days_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff9d;
+  display: flex;
+  width: 63px;
+  height: 21px;
+  border-radius: 30px;
+}
+
+.main_hot_tours_days {
+  margin: 2px 0 0 5px;
+  color: #252525;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main_hot_tours_price_container {
+  background-color: #ffffff9d;
+  width: 94px;
+  height: 21px;
+  border-radius: 30px;
+}
+
+.main_hot_tours_price {
+  margin-top: 2px;
+  color: #252525;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.main_hot_tours_from {
+  position: absolute;
+  top: 75%;
+  left: 11%;
+  background-color: #ffffff85;
+  width: 100px;
+  border-radius: 30px;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main_hot_tours_date {
+  position: absolute;
+  margin-top: 10px;
+  top: 82%;
+  left: 12%;
+  background-color: #edebeb62;
+  min-width: 100px;
+  border-radius: 30px;
+
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.main_hot_tours_link_container {
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: #ec1c24;
+  position: absolute;
+  top: 85%;
+  left: 52%;
+  display: flex;
+  gap: 10px;
+  width: 140px;
+  height: 25px;
+  transition: 1s all;
+}
+
+.main_hot_tours_link {
+  color: #ffffff !important;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 1s all;
+}
+
+.main_hot_tours_link:hover {
+  color: #aaaaaaef !important;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 1s all;
+}
+
+/* Навигация */
+/* .main_hot_tours_navigate {
+  display: none;
+} */
+
+.main_hot_tours_navigate:hover {
+  display: block;
+}
+
+@media (max-width: 1920px) {
+  .slider_hottours_container {
+    max-width: 1220px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .slider_hottours_container {
+    max-width: 890px;
+  }
+}
+@media (max-width: 1199px) {
+  .slider_hottours_container {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 760px) {
+  .main_hot_tours_header {
+    max-width: 320px;
+  }
+  .main_hot_tours_header_txt1 {
+    font-size: 20px;
+  }
+  .main_hot_tours_header_txt2 {
+    font-size: 16px;
+  }
+  .slider_hottours_container {
+    max-width: 390px;
+  }
+}
+
+@media (max-width: 499px) {
+  .slider_hottours_container {
+    left: 1%;
+  }
+}

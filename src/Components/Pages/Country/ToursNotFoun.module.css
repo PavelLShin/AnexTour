@@ -1,0 +1,26 @@
+.tours_nf_container {
+  width: 1920px;
+  height: 1269px;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+}
+
+.tours_nf_container > h1 {
+  margin-top: 200px;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(43, 43, 43);
+}
+
+.tours_nf_link {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(132, 130, 130) !important;
+  transition: 0.5s all;
+}
+
+.tours_nf_link:hover {
+  color: rgb(43, 43, 43) !important;
+  transition: 0.5s all;
+}

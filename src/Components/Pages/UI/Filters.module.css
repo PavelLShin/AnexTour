@@ -1,0 +1,395 @@
+.main_filter {
+  position: absolute;
+  left: 70%;
+
+  width: 480px;
+  height: 1811px;
+  position: absolute;
+  z-index: 2;
+  left: 75%;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px 0px rgba(43, 43, 51, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  width: 480px;
+  height: 1711px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.filters_head {
+  cursor: pointer;
+  margin-top: 35px;
+  width: 237px;
+  height: 60px;
+  display: flex;
+  gap: 150px;
+  margin-left: 100px;
+}
+
+.filters_head > h2 {
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.filters_head > img {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.see_price {
+  margin-left: 100px;
+
+  width: 237px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.see_price > h2 {
+  text-align: left;
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.see_price > form {
+  cursor: pointer;
+  display: flex;
+  gap: 35px;
+
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form_offer {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 210px;
+  height: 180px;
+}
+
+.form_offer > h2 {
+  color: #1c1c1c;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.form_offer > form {
+  width: 143px;
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.form_for_you {
+  margin-left: 100px;
+  width: 298px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form_for_you > h2 {
+  color: #1c1c1c;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.form_for_you > form {
+  width: 250px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  align-items: flex-start;
+}
+
+label {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+.days_rest {
+  margin-left: 100px;
+  align-items: flex-start;
+  gap: 16px;
+  width: 298px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.days_rest > h2 {
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.days_rest > form {
+  width: 174px;
+  height: 39px;
+  display: flex;
+  gap: 10px;
+
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.days_rest > form > input {
+  text-align: center;
+  width: 38px;
+  height: 33px;
+  border-radius: 10px;
+  border: 2px solid #d4d4d4;
+  background: #fff;
+}
+
+.form_eat {
+  margin-left: 100px;
+  width: 174px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form_eat > h2 {
+  color: #1c1c1c;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.form_eat > form {
+  width: 174px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  gap: 5px;
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+label {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+.rating_hotels {
+  margin-left: 100px;
+  width: 167px;
+  height: 191px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rating_hotels > h2 {
+  width: 167px;
+  color: #1c1c1c;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.rating_hotels > form {
+  width: 80px;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  gap: 5px;
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+label {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+.conditions {
+  display: flex;
+  width: 203px;
+  height: 218px;
+  margin-left: 100px;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.conditions > h2 {
+  text-align: left;
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.conditions > form {
+  width: 203px;
+  height: 156px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  gap: 5px;
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.form_btn {
+  justify-content: space-around;
+  align-items: center;
+  width: 480px;
+  height: 100px;
+  display: flex;
+}
+
+.clean_form {
+  color: #a1a1a1;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.submit_form {
+  width: 170px;
+  height: 40px;
+  border-radius: 30px;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  align-items: center;
+}
+
+.submit_form > h2 {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.submit_form > img {
+  width: 11px;
+  height: 11px;
+}
+
+@media (max-width: 1659px) {
+  .main_filter {
+    left: 50%;
+  }
+}
+@media (max-width: 899px) {
+  .main_filter {
+    left: 30%;
+  }
+}
+
+@media (max-width: 659px) {
+  .main_filter {
+    left: 10%;
+  }
+}
+@media (max-width: 529px) {
+  .main_filter {
+    left: 2%;
+    max-width: 450px;
+  }
+  .container {
+    max-width: 420px;
+  }
+}

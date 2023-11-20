@@ -1,0 +1,136 @@
+.main_zayavka_container {
+  position: relative;
+  max-width: 1920px;
+  height: 454px;
+}
+
+.main_zayavka_form {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 1120px;
+  height: 133px;
+  border-radius: 30px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.main_zayavka_form > h1 {
+  text-align: left;
+  margin: 40px 0 0 40px;
+  width: 305px;
+  height: 56px;
+  color: var(--, #1c1c1c);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main_zayavka_form > h2 {
+  margin: 40px 0 0 40px;
+  text-align: left;
+  width: 171px;
+  height: 57px;
+  color: var(--, #1c1c1c);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.main_zayavka_form > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 120px;
+  gap: 10px;
+}
+
+.main_zayavka_form_input {
+  border-bottom: 1px solid #848484;
+  width: 120px;
+  height: 20px;
+  color: #bdbdbd;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main_input_btn {
+  position: absolute;
+  top: 25%;
+  left: 80%;
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  display: flex;
+  width: 168px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #ec1c24;
+}
+
+.main_input_btn_txt {
+  margin: 12px 0 0 40px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main_input_btn_img {
+  margin: 15px 0 0 0px;
+  width: 11px;
+  height: 11px;
+}
+
+@media (max-width: 1499px) {
+  .main_zayavka_form {
+    left: 5%;
+    gap: 29px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main_zayavka_form {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    height: 372px;
+    border-radius: 30px;
+    background-color: #fff;
+    top: 10%;
+    flex-direction: column;
+    left: 30%;
+  }
+  .main_zayavka_form > h1,
+  .main_zayavka_form > h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .main_input_btn {
+    position: static;
+  }
+}
+
+@media (max-width: 499px) {
+  .main_zayavka_form {
+    left: 10%;
+  }
+}
